@@ -1,0 +1,94 @@
+/* Additional CSS for Complex Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://plus.unsplash.com/premium_photo-1671641755797-8a01bb43fc25?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.com/path/to/your-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px; /* Increase border radius for a more rounded look */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.login-box {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    color: #007bff;
+    font-weight: 600; /* Make the title bolder */
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-box {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff; /* Match label color to the reference website */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007bff; /* Increase border thickness */
+    border-radius: 16px; /* Make input borders more rounded */
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(251, 1, 214); /* Use a slightly darker text color for better contrast */
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+.form-check {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-check-input {
+    margin-right: 10px; /* Add some space between the checkbox and text */
+  }
+  
+button:hover {
+    background: #0056b3;
+}
+
+/* Adjust the styles for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}

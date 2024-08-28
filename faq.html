@@ -1,0 +1,100 @@
+<main>
+    <link rel="stylesheet" href="style_css.css">
+    <!-- <script src="java_faq.js"></script> -->
+    <script>
+      function toggleAccordion(index) {
+        var answer = document.getElementById('answer' + index);
+        if (answer.style.display === 'block') {
+          answer.style.display = 'none';
+        } else {
+          answer.style.display = 'block';
+        }
+      }
+    </script>
+  <section class="card">
+    <!-- cube img -->
+    <img src="https://raw.githubusercontent.com/MizAndhre/FAQ-accordion-card/2ff2a02d093554f14d0390a409e825669313a16e/images/illustration-box-desktop.svg" alt="Box" class="card__box" />
+    <!-- Images -->
+    <div class="card__img">
+      <!-- mobile -->
+      <img class="card__img-mobile" src="https://raw.githubusercontent.com/MizAndhre/FAQ-accordion-card/2ff2a02d093554f14d0390a409e825669313a16e/images/illustration-woman-online-mobile.svg" alt="Woman online Mobile" />
+      <!-- desktop -->
+      <img class="card__img-desktop" src="https://raw.githubusercontent.com/MizAndhre/FAQ-accordion-card/2ff2a02d093554f14d0390a409e825669313a16e/images/illustration-woman-online-desktop.svg" alt="Woman online desktop" />
+    </div>
+
+    <!-- Text -->
+    <div class="card__text">
+      <h1>FAQ</h1>
+   
+      <div class="accordion">
+        <!-- item 1 -->
+        <div class="accordion__item">
+          <button class="accordion__title" onclick="toggleAccordion(1)">
+            What are the courses offered by Thapar Institute of Engineering & Technology at Patiala Campus?
+          </button>
+
+          <div class="accordion__collapse collapse" id="answer1">
+            <div class="accordion__text">
+              <p> Thapar Institute of Engineering & Technology offers undergraduate programs leading to a Bachelor’s 
+                degree in Engineering and Technology, Post graduate program in Engineering Science and Arts, and 
+                Doctoral program. </p>
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="accordion__item">
+          <button class="accordion__title" onclick="toggleAccordion(2)">
+            What is the eligibility criterion for admission to a program?
+          </button>
+
+          <div class="accordion__collapse collapse" id="answer2">
+            <div class="accordion__text">
+                The details about the eligibility criteria for various programs are available at www.thapar.edu
+            </div>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="accordion__item">
+          <button class="accordion__title" onclick="toggleAccordion(3)">
+            How can I apply to various programs offered by Thapar Institute of Engineering & Technology?
+          </button>
+
+          <div class="accordion__collapse collapse" id="answer3">
+            <div class="accordion__text">
+                You can apply to various programs offered by TIET through an online application form available at 
+                website of Thapar Institute of Engineering & Technology. Please check for the last date of application at 
+                www.thapar.edu.
+            </div>
+          </div>
+        </div>
+        <!-- item 4 -->
+        <div class="accordion__item">
+          <button class="accordion__title" onclick="toggleAccordion(4)">
+            What is the fee component of various courses offered by Thapar Institute of Engineering &
+            Technology?
+          </button>
+
+          <div class="accordion__collapse collapse" id="answer4">
+            <div class="accordion__text">
+            The fee details can be browsed on official website of TIET through the respective program pages which carry the same. For details visit www.thapar.edu.
+                
+            </div>
+          </div>
+        </div>
+        <!-- item 5 -->
+        <div class="accordion__item">
+          <button class="accordion__title" onclick="toggleAccordion(5)">
+            Is there any entrance exam for admission under FN/NRI category??
+          </button>
+
+          <div class="accordion__collapse collapse" id="answer5">
+            <div class="accordion__text">
+                There is no entrance examination for students seeking admission under FN/NRI category to any program.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+

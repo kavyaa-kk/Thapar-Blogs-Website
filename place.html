@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Placements</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    nav{
+  background: linear-gradient(to right, rgb(184, 110, 110), rgb(175, 76, 76));
+  padding-left: 30px !important;
+  z-index: 2;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: rgb(175, 76, 76);
+      color: white;
+    }
+
+    .contact-section {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .company-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .company-card {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    .company-logo {
+      max-width: 100px;
+      cursor: pointer;
+    }
+    .contact-section {
+        color: #8b0404;
+    }
+    .company-card:hover {
+      transform: scale(1.05);
+    }
+    .major {
+        color:#ffffff;
+        background-color: #c9bfbf89;
+        height: 70px;
+        margin: auto;
+       
+       padding: 10px;
+    }
+
+    #ki{
+      color: #fff;
+    }
+    .foot{
+        background-color: rgba(241, 71, 71, 0);
+    }
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    color: #f4f4f4;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+nav a{
+    color: white !important;
+  }
+  </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1 id="ki">Campus Placements</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#foot">Contact</a></li>
+           
+        </ul>
+    </nav>
+<h1>Campus Placements</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Academic Year</th>
+      <th>Companies Visiting</th>
+      <th colspan="4">Number of Students Placed</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Single Offer</td>
+      <td>Multiple Offer</td>
+      <td>Total Students Placed</td>
+      <td>Total Offers</td>
+    </tr>
+    <tr>
+        <td>2016-2017</td>
+        <td>268</td>
+        <td>860</td>
+        <td>169</td>
+        <td>1029</td>
+        <td>1213</td>
+      </tr>
+      <tr>
+        <td>2017-2018</td>
+        <td>322</td>
+        <td>934</td>
+        <td>203</td>
+        <td>1137</td>
+        <td>1345</td>
+      </tr>
+      <tr>
+        <td>2018-2019</td>
+        <td>332</td>
+        <td>1174</td>
+        <td>75</td>
+        <td>1249</td>
+        <td>1324</td>
+      </tr>
+      <tr>
+        <td>2019-2020</td>
+        <td>347</td>
+        <td>696</td>
+        <td>126</td>
+        <td>1095</td>
+        <td>1221</td>
+      </tr>
+      <tr>
+        <td>2020-2021</td>
+        <td>431</td>
+        <td>1104</td>
+        <td>120</td>
+        <td>1224</td>
+        <td>1344</td>
+      </tr>
+      <tr>
+        <td>2021-2022</td>
+        <td>395</td>
+        <td>1341</td>
+        <td>263</td>
+        <td>1604</td>
+        <td>1867</td>
+      </tr>
+      <tr>
+        <td>2022-2023</td>
+        <td>334</td>
+        <td>1664</td>
+        <td>110</td>
+        <td>1774</td>
+        <td>1884</td>
+      </tr>
+  </tbody>
+</table>
+
+
+<div class="major">
+    <h1> Some of our Recruiters</h1>
+</div>
+<div class="row">
+<div class="company-card" onclick="redirect('https://www.jpmorgan.com/country/IN/en/jpmorgan')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/15/15_J%20P%20Morgan1511939074.jpg" alt="JP Morgan">
+    <h2>JP Morgan</h2>
+  </div>
+  
+  <div class="company-card" onclick="redirect('https://www.zomato.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/10/10_Zomato1511939210.jpg" alt="">
+    <h2>Zomato</h2>
+  </div>
+
+  <div class="company-card" onclick="redirect('http://www.samsung.com/in/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/21/21_Samsung1511939590.jpg" alt="">
+    <h2>Samsung</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www.infosys.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/14/14_Infosys1511528448.jpg" alt="">
+    <h2>Infosys</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www.microsoft.com/en-in')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/18/18_Microsoft1511939351.jpg" alt="">
+    <h2>Microsoft</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www.wipro.com/en-IN/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/22/22_Wipro1511940652.jpg" alt="">
+    <h2>Wipro</h2>
+  </div>
+  <div class="company-card" onclick="redirect('http://www.rcom.co.in/Rcom/personal/home/index.html')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/20/20_Reliance1511939436.jpg" alt="">
+    <h2>Reliance</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www.marutisuzuki.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/17/17_Maruti%20Suzuki1511939319.jpg" alt="">
+    <h2>Maruti Suzuki</h2>
+  </div>
+  <div class="company-card" onclick="redirect('http://www.hsbc.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/7/7_HSBC1511939181.jpg" alt="">
+    <h2>HSBC</h2>
+  </div>
+
+  <div class="company-card" onclick="redirect('https://www.whirlpoolindia.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/9/9_Whirlpool1511939202.jpg" alt="">
+    <h2>Whirlpool</h2>
+  </div>
+
+  <div class="company-card" onclick="redirect('https://www.sew.ai/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/25/25_SEW1611837355.jpg" alt="">
+    <h2>SEW</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www.rbs.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/19/19_RBS1511939383.jpg" alt="">
+    <h2>RBS</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www2.deloitte.com/in/en.html')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/11/11_Deloitte1511528310.jpg" alt="">
+    <h2>Deloitte</h2>
+  </div>
+  <div class="company-card" onclick="redirect('http://www.larsentoubro.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/16/16_L&T1511939123.jpg" alt="">
+    <h2>Larsen & Tourbo</h2>
+  </div>
+  <div class="company-card" onclick="redirect('https://www.edelweissfin.com/')">
+    <img class="company-logo" src="https://thapar.edu/webroot/files/research/12/12_edelweiss-capital1511528395.jpg" alt="">
+    <h2>Edelweiss</h2>
+  </div>
+</div>
+<div class="foot" , id="foot">
+<footer class="contact-section">
+  <p>Contact :</p>
+  <p>Ajayinder S. Jawanda :- Chief Industry Engagement Officer</p>
+  <p>H.S. Bawa :- Head</p>
+  <p>Davinder Pal Singh :- Senior Manager - Liaison & Placement</p>
+  <p>Email Id:- tpo@thapar.edu</p>
+  </footer>
+  </div>
+  <script>
+    var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "30%";
+  }
+}
+    function redirect(url) {
+      window.location.href = url;
+    }
+  </script>
+  
+</body>
+</html>

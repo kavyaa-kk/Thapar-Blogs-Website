@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Events-Console</title>
+
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- custom stylesheets -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#389BCF" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand font-weight-bolder" href="societies.html">Events Console</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#past-events">Past Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#footer">Contact</a>
+          </li>
+          <!-- societies and events -->
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- grid-comtainer -->
+    <section id="main">
+
+      <!-- sidebar-->
+      <div id="sidebar">
+          <ul>
+            <li>
+              <img src="assets\images\logos\1.jpg" alt="">
+              <a href="https://www.instagram.com/saturnalia.thapar/" class="name">Saturnalia</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/MUDRA.png" alt="">
+              <a href="https://www.instagram.com/mudrasociety/?hl=en" class="name">Mudra</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/files/rot.jpg" alt="">
+              <a href="https://www.instagram.com/rotaractclubtiet/?hl=en" class="name">Rotract</a>
+            </li>
+
+            <li>
+              <img src="assets\images\logos\5.png" alt="">
+              <a href="https://www.facebook.com/GirlUpTIET/" class="name">Girl Up</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/MSC.png" alt="">
+              <a href="https://www.instagram.com/mlsc_tiet/?hl=en" class="name">MLSC</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/CCS.png" alt="">
+              <a href="https://www.instagram.com/ccs_tiet/" class="name">CCS</a>
+            </li>
+
+            <li>
+              <img src="assets\images\logos\2.jpg" alt="">
+              <a href="https://www.instagram.com/thaparfoodfestival/" class="name">Thapar Food Fest</a>
+            </li>
+
+            <li>
+              <img src="assets\images\logos\3.png" alt="">
+              <a href="https://www.instagram.com/saic_tiet/" class="name">SAIC</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/Adventure%20Club.jpg" alt="">
+              <a href="https://www.instagram.com/thaparadventureclub/?hl=en" class="name">Thapar Adventure Club</a>
+            </li>
+
+            <li>
+              <img src="assets\images\logos\4.jpg" alt="">
+              <a href="https://www.facebook.com/thaparnautankiteam/" class="name">Thapar Nautanki Team</a>
+            </li>
+
+
+            <li>
+              <img src="http://thapar.edu/upload/images/Frosh.jpg" alt="">
+              <a href="https://www.instagram.com/froshtiet/" class="name">Frosh</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/LEAD.png" alt="">
+              <a href="https://www.instagram.com/lead_tiet/?hl=en" class="name">LEAD</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/Pratigya.png" alt="">
+              <a href="https://www.instagram.com/pratigyaabhiyan/?hl=en" class="name">Pratigya</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/Toastmasters.png" alt="">
+              <a href="https://www.instagram.com/thapartoastmasters/?hl=en" class="name">TU Toastmasters Club</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/ACM.png" alt="">
+              <a href="https://www.instagram.com/acmthapar/?hl=en" class="name">ACM Computing Chapter</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/Tedx.png" alt="">
+              <a href="https://www.instagram.com/tedxtiet/?hl=en" class="name">TEDx</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/YU.png" alt="">
+              <a href="https://www.instagram.com/p/CN_1dEKH5z5/" class="name">Youth United</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/IEI.png" alt="">
+              <a href="https://www.instagram.com/team_oorja/" class="name">Team Oorja</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/TMC.jpg" alt="">
+              <a href="https://www.instagram.com/thaparmovieclub/?hl=en" class="name">Thapar Movie Club</a>
+            </li>
+
+            <li>
+              <img src="http://thapar.edu/upload/images/Echoes.png" alt="">
+              <a href="https://www.instagram.com/echoes.tiet/?hl=en" class="name">Echoes Club</a>
+            </li>
+
+          </ul>
+      </div>
+
+      <!-- events and their contents -->
+      <div id="events" class="text-center">
+
+        <!-- overlay -->
+          <div class="overlay"></div>
+
+          <div class="content pt-5">
+            <div class="row">
+              <div class="col-md-8 col-sm-12 slider">
+                
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        
+                        <div class="carousel-item">
+                            <img src="assets\images\slider-posters\1.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img src="assets\images\slider-posters\2.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img src="assets\images\slider-posters\3.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img src="assets\images\slider-posters\4.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item active">
+                          <img src="assets\images\slider-posters\5.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img src="assets\images\slider-posters\6.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img src="assets\images\slider-posters\7.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+
+              </div>
+
+              <div class="col-md-4 col-sm-12 informal-events">
+                <div>
+                    <div class="scroll-header">
+                      <h4 class="text-light">
+                        Latest News
+                      </h4>
+                    </div>
+
+                    <div class="scroll">
+    
+                      <ul>
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Nibble Computer Society to conduct workshop on Web development</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Boys Hostel Mess Party at 7:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Holi Sammalan in front on AB1 from 12:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+    
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Nibble Computer Society to conduct workshop on Web development</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Boys Hostel Mess Party at 7:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Holi Sammalan in front on AB1 from 12:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+    
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Nibble Computer Society to conduct workshop on Web development</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Boys Hostel Mess Party at 7:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Holi Sammalan in front on AB1 from 12:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+    
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Nibble Computer Society to conduct workshop on Web development</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Boys Hostel Mess Party at 7:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Holi Sammalan in front on AB1 from 12:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+    
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Nibble Computer Society to conduct workshop on Web development</span>
+                            </div>
+                        </li>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Boys Hostel Mess Party at 7:00pm</span>
+                            </div>
+                        </li>
+
+                        <hr>
+          
+                        <li>
+                            <div class="event-news">
+                              <span class="date">02/03/2019</span>
+                              <span class="event-descption">Holi Sammalan in front on AB1 from 12:00pm</span>
+                            </div>
+                        </li>
+                      </ul>
+    
+                    </div>
+    
+                    <div class="scroll-footer"></div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <!-- UPCOMING EVENTS -->
+          <div class='content pt-5' id="upcoming-events">
+              <h2 class="main-heading">UPCOMING EVENTS</h2>
+
+              <div class="row mt-4">
+
+                <!-- first event box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                 <div>
+                   <img src="assets\images/upcoming-events/1.jpg" alt="" class="img-fluid">
+                   <h5>NCS Recruitments</h5>
+                 </div> 
+                </div>
+
+                <!-- modal-box -->
+                <div class="modal-box">
+                    <div class="row modal-box-content">
+                      <div class="col-lg-7 col-md-12 modal-poster">
+                          <img src="" alt="" class="img-fluid">
+                      </div>
+
+                      <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The Recruitments will be conducted by Nibble Computer Society
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                      </div>
+                    </div>
+                </div>
+      
+                <!-- second event box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                  <div>
+                   <img src="assets\images/upcoming-events/2.jpg" alt="">
+                   <h5>EDC Recruitments</h5>
+                 </div> 
+                </div>
+
+                <!-- modal-box -->
+                <div class="modal-box">
+                    <div class="row modal-box-content">
+                      <div class="col-lg-7 col-md-12 modal-poster">
+                          <img src="" alt="">
+                      </div>
+
+                      <div class="col-lg-5 col-md-12 modal-details">
+                        <h4></h4>
+                        <p class="pt-1">
+                            The Recruitments will be conducted by EDC-JSS
+                        </p>
+                        <h6>Date: <span>25-26 July</span></h6>
+                        <h6>Time: <span>10-12am</span></h6>
+                        <h6>Venue: <span>Computer Centre</span></h6>
+                        <a href="https://www.instagram.com/saturnalia.thapar/">
+                          <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+      
+                <!-- third event box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                  <div>
+                   <img src="assets\images/upcoming-events/3.jpg" alt="">
+                   <h5>Design Workshop</h5>
+                 </div> 
+                </div>
+
+                <!-- modal-box -->
+                <div class="modal-box">
+                    <div class="row modal-box-content">
+                      <div class="col-lg-7 col-md-12 modal-poster">
+                          <img src="" alt="">
+                      </div>
+
+                      <div class="col-lg-5 col-md-12 modal-details">
+                        <h4></h4>
+                        <p class="pt-1">
+                            This workshop will be conducted by Nibble Computer Society
+                        </p>
+                        <h6>Date: <span>25-26 July</span></h6>
+                        <h6>Time: <span>10-12am</span></h6>
+                        <h6>Venue: <span>Computer Centre</span></h6>
+                        <a href="https://www.instagram.com/saturnalia.thapar/">
+                          <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+      
+                <!-- fourth box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                  <div>
+                   <img src="assets\images/upcoming-events/4.jpg" alt="">
+                   <h5>Workshop On Machine Learning</h5>
+                 </div> 
+                </div>
+                <!-- modal-box -->
+               <div class="modal-box">
+                  <div class="row modal-box-content">
+                    <div class="col-lg-7 col-md-12 modal-poster">
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 modal-details">
+                      <h4></h4>
+                      <p class="pt-1">
+                          This workshop will be conducted by DSC JSS NOIDA
+                      </p>
+                      <h6>Date: <span>25-26 July</span></h6>
+                      <h6>Time: <span>10-12am</span></h6>
+                      <h6>Venue: <span>Computer Centre</span></h6>
+                      <a href="https://www.instagram.com/saturnalia.thapar/">
+                        <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+
+              </div>
+
+              
+              <!-- next row -->
+              <div class="row mt-2">
+
+                <!-- first event box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                   <div>
+                     <img src="assets\images/upcoming-events/5.jpg" alt="">
+                     <h5>AUTO QUIZ</h5>
+                   </div> 
+                  </div>
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The event will be conducted by Team Vega Racing and powered by NCS
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <!-- second box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                    <div>
+                     <img src="assets\images/upcoming-events/6.jpg" alt="" class="img-fluid">
+                     <h5>Design Workshop</h5>
+                   </div> 
+                  </div>
+
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              This workshop will be conducted by Microsoft Mobile Innovation Labs JSS
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+
+
+                  <!-- third box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                    <div>
+                     <img src="assets\images/upcoming-events/7.jpg" alt="" class="img-fluid">
+                     <h5>Workshop on Androcar</h5>
+                   </div> 
+                  </div>
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              This workshop will be conducted by SEED-Electrino
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+        
+                  <!-- fourth box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                    <div>
+                     <img src="assets\images/upcoming-events/8.jpg" alt="" class="img-fluid">
+                     <h5>VEGA Recruitments</h5>
+                   </div> 
+                  </div>
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The Recruitments will be conducted by Team VEGA Racing
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+
+                </div>
+
+          </div>
+
+
+                  <!-- PAST EVENTS -->
+            <div class='content pt-3' id="past-events">
+              <h2 class="main-heading">PAST EVENTS</h2>
+
+              <div class="row mt-4">
+
+                <!-- first event box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                 <div>
+                   <img src="assets\images/past-events/1.jpg" alt="" class="img-fluid">
+                   <h5>NCS Recruitments</h5>
+                 </div> 
+                </div>
+
+                <!-- modal-box -->
+                <div class="modal-box">
+                    <div class="row modal-box-content">
+                      <div class="col-lg-7 col-md-12 modal-poster">
+                          <img src="" alt="" class="img-fluid">
+                      </div>
+
+                      <div class="col-lg-5 col-md-12 modal-details">
+                        <h4></h4>
+                        <p class="pt-1">
+                            The Recruitments were conducted by Nibble Computer Society
+                        </p>
+                        <h6>Date: <span>25-26 July</span></h6>
+                        <h6>Time: <span>10-12am</span></h6>
+                        <h6>Venue: <span>Computer Centre</span></h6>
+                        <a href="https://www.instagram.com/saturnalia.thapar/">
+                          <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+      
+                <!-- second event box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                  <div>
+                   <img src="assets\images/past-events/2.jpg" alt="">
+                   <h5>Quanta Workshop</h5>
+                 </div> 
+                </div>
+
+                <!-- modal-box -->
+                <div class="modal-box">
+                    <div class="row modal-box-content">
+                      <div class="col-lg-7 col-md-12 modal-poster">
+                          <img src="" alt="">
+                      </div>
+
+                      <div class="col-lg-5 col-md-12 modal-details">
+                        <h4></h4>
+                        <p class="pt-1">
+                            This workshop was be conducted by Quanta
+                        </p>
+                        <h6>Date: <span>25-26 July</span></h6>
+                        <h6>Time: <span>10-12am</span></h6>
+                        <h6>Venue: <span>Computer Centre</span></h6>
+                        <a href="https://www.instagram.com/saturnalia.thapar/">
+                          <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+      
+                <!-- third event box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                  <div>
+                   <img src="assets\images/past-events/3.jpg" alt="">
+                   <h5>Manual Robotics Workshop</h5>
+                 </div> 
+                </div>
+
+                <!-- modal-box -->
+                <div class="modal-box">
+                    <div class="row modal-box-content">
+                      <div class="col-lg-7 col-md-12 modal-poster">
+                          <img src="" alt="">
+                      </div>
+
+                      <div class="col-lg-5 col-md-12 modal-details">
+                        <h4></h4>
+                        <p class="pt-1">
+                            This workshop was be conducted by Quanta
+                        </p>
+                        <h6>Date: <span>25-26 July</span></h6>
+                        <h6>Time: <span>10-12am</span></h6>
+                        <h6>Venue: <span>Computer Centre</span></h6>
+                        <a href="https://www.instagram.com/saturnalia.thapar/">
+                          <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+      
+                <!-- fourth box -->
+                <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                  <div>
+                   <img src="assets\images/past-events/4.jpg" alt="">
+                   <h5>MMIL Recruitments</h5>
+                 </div> 
+                </div>
+                <!-- modal-box -->
+               <div class="modal-box">
+                  <div class="row modal-box-content">
+                    <div class="col-lg-7 col-md-12 modal-poster">
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 modal-details">
+                      <h4></h4>
+                      <p class="pt-1">
+                        The Recruitments were conducted by MMIL
+                      </p>
+                      <h6>Date: <span>25-26 July</span></h6>
+                      <h6>Time: <span>10-12am</span></h6>
+                      <h6>Venue: <span>Computer Centre</span></h6>
+                      <a href="https://www.instagram.com/saturnalia.thapar/">
+                        <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+
+              </div>
+
+              
+              <!-- next row -->
+              <div class="row mt-2">
+
+                <!-- first event box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                   <div>
+                     <img src="assets\images/past-events/5.jpg" alt="">
+                     <h5>Treasuro</h5>
+                   </div> 
+                  </div>
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The Event was conducted by MMIL
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <!-- second box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                    <div>
+                     <img src="assets\images/past-events/6.jpg" alt="" class="img-fluid">
+                     <h5>LF Recruitments</h5>
+                   </div> 
+                  </div>
+
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The Recruitments were conducted by Lingua Franca
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+
+
+                  <!-- third box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                    <div>
+                     <img src="assets\images/past-events/7.jpg" alt="" class="img-fluid">
+                     <h5>E-Summit 2019</h5>
+                   </div> 
+                  </div>
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The event was conducted by Entrepreneurship Development Cell - JSSATEN
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.instagram.com/saturnalia.thapar/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+        
+                  <!-- fourth box -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 event-box">
+                    <div>
+                     <img src="assets\images/past-events/8.jpg" alt="" class="img-fluid">
+                     <h5>Tech-Trek</h5>
+                   </div> 
+                  </div>
+                  <!-- modal-box -->
+                  <div class="modal-box">
+                      <div class="row modal-box-content">
+                        <div class="col-lg-7 col-md-12 modal-poster">
+                            <img src="" alt="">
+                        </div>
+  
+                        <div class="col-lg-5 col-md-12 modal-details">
+                          <h4></h4>
+                          <p class="pt-1">
+                              The Event was conducted by Nibble Computer Society
+                          </p>
+                          <h6>Date: <span>25-26 July</span></h6>
+                          <h6>Time: <span>10-12am</span></h6>
+                          <h6>Venue: <span>Computer Centre</span></h6>
+                          <a href="https://www.facebook.com/officialTIET/">
+                            <button class="btn btn-primary rounded-pill mt-1">More Information</button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+
+                </div>
+                  </div>
+
+              <!-- footer -->
+
+              <footer id="footer"> 
+                <div class="">
+                  <a href="https://www.facebook.com/officialTIET/" class="navbar-brand font-weight-bolder text-light">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </div>
+
+                <div class="">
+                  <a class="navbar-brand font-weight-bolder text-light" href="#events">Events Console</a>
+                </div>
+
+                <div class="">
+                  <a href="https://www.thapar.edu/" class="navbar-brand font-weight-bolder text-light">
+                    <i class="fas fa-globe"></i>
+                  </a>
+                </div>
+              </footer>
+
+          </div>
+      </div>
+
+
+
+
+    </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', {
+        scope: '/'
+      });
+    }
+  </script>
+
+</body>
+</html>
